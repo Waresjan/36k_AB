@@ -13,7 +13,7 @@ import lanou.a36k_ab.R;
 /**
  * Created by dllo on 16/10/21.
  */
-public class mineFragment extends Fragment {
+public class MineFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {

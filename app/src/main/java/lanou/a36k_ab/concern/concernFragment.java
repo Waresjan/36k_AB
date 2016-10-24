@@ -13,7 +13,7 @@ import lanou.a36k_ab.R;
 /**
  * Created by dllo on 16/10/21.
  */
-public class concernFragment extends Fragment {
+public class ConcernFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
