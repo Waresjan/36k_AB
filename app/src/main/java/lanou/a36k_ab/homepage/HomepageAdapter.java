@@ -16,7 +16,7 @@ public class HomepageAdapter extends FragmentPagerAdapter {
     }
 
     ArrayList<Fragment>fragments1;
-        String[] strings = {"视讯","推荐","早起项目"};
+        String[] strings = {"快讯","推荐","早起项目"};
 
     public HomepageAdapter(FragmentManager fm) {
         super(fm);

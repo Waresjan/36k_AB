@@ -6,65 +6,89 @@
    android:orientation="vertical"
     android:layout_margin="2dp"
     android:background="#efefef"
-    tools:context="lanou.a36k_ab.MainActivity">
+    tools:context=".Mainactivity">
 
-    <android.support.v4.view.ViewPager
-        android:id="@+id/Main_vp"
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_weight="1"/>
-
-
-
-
-    <android.support.design.widget.TabLayout
-        android:id="@+id/Main_tl"
-        android:layout_width="match_parent"
-        android:layout_height="60dp">
-
-    </android.support.design.widget.TabLayout>
-<!--<LinearLayout-->
-    <!--android:id="@+id/main_view"-->
-    <!--android:orientation="vertical"-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="0dp"-->
-    <!--android:layout_weight="7">-->
-
-<!--</LinearLayout>-->
-    <!--<LinearLayout-->
-        <!--android:layout_width="match_parent"-->
+    <!--<android.support.v4.view.ViewPager-->
+        <!--android:id="@+id/Main_vp"-->
+        <!--android:layout_width="wrap_content"-->
         <!--android:layout_height="0dp"-->
-        <!--android:layout_weight="1"-->
-        <!--android:orientation="horizontal">-->
+        <!--android:layout_weight="1"/>-->
 
 
-        <!--<RadioButton-->
-            <!--android:layout_width="0dp"-->
-            <!--android:layout_height="match_parent"-->
-            <!--android:layout_weight="1"-->
-            <!--android:id="@+id/concern"/>-->
 
-        <!--<RadioButton-->
-            <!--android:layout_width="0dp"-->
-            <!--android:layout_height="match_parent"-->
-            <!--android:layout_weight="1"-->
-            <!--android:id="@+id/find"/>-->
-        <!--<RadioButton-->
-            <!--android:layout_width="0dp"-->
-            <!--android:layout_height="match_parent"-->
-            <!--android:layout_weight="1"-->
-            <!--android:id="@+id/homepage"/>-->
-        <!--<RadioButton-->
-            <!--android:layout_width="0dp"-->
-            <!--android:layout_height="match_parent"-->
-            <!--android:layout_weight="1"-->
-            <!--android:id="@+id/mine"/>-->
-        <!--<RadioButton-->
-            <!--android:layout_width="0dp"-->
-            <!--android:layout_height="match_parent"-->
-            <!--android:layout_weight="1"-->
-            <!--android:id="@+id/video"/>-->
-    <!--</LinearLayout>-->
+
+    <!--<android.support.design.widget.TabLayout-->
+        <!--android:id="@+id/Main_tl"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="60dp">-->
+
+    <!--</android.support.design.widget.TabLayout>-->
+<LinearLayout
+    android:id="@+id/main_view"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="7">
+
+</LinearLayout>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/homepage"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/seletor_homepage"
+            android:button="@null"
+            android:text="首页"
+            android:gravity="center"
+            />
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/seletor_concern"
+            android:button="@null"
+            android:text="关注"
+            android:gravity="center"
+            android:id="@+id/concern"/>
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/seletor_find"
+            android:button="@null"
+            android:text="发现"
+            android:gravity="center"
+            android:id="@+id/find"/>
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/seletor_homepage"
+            android:button="@null"
+            android:text="视频"
+            android:gravity="center"
+            android:id="@+id/video"/>
+
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/seletor_video"
+            android:button="@null"
+            android:text="我的"
+            android:gravity="center"
+            android:id="@+id/mine"/>
+    </RadioGroup>
 
 
 </LinearLayout>

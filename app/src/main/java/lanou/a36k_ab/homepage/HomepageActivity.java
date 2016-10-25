@@ -26,7 +26,7 @@
 //    setContentView(R.layout.fragment_homepage);
 //
 //        homepage_vp = (ViewPager) findViewById(R.id.homepage_vp);
-//        homepage_tl = (TabLayout) findViewById(R.id.Main_tl);
+//        homepage_tl = (TabLayout) findViewById(R.id.homepage_tl);
 //
 //        ArrayList<Fragment>fragments1 = new ArrayList<>();
 //        fragments1.add(new FlashFragment());
