@@ -1,14 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <include layout="@layout/title_concern"/>
 
-    <Button
-        android:id="@+id/find_find"
+    <ImageView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@mipmap/guanzhu"/>
-</RelativeLayout>
+        android:layout_height="wrap_content"
+        android:src="@mipmap/image_follow"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="关注感兴趣的标签"
+        android:gravity="center"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="让这里都是你你想看的"
+        android:gravity="center"
+        android:textSize="20dp"/>
+
+
+<ImageButton
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:src="@mipmap/bt_follow"
+    android:background="#00000000"/>
+</LinearLayout>
