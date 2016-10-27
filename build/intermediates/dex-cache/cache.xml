@@ -1,12 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" >
-
-    <item
-        jar="/Users/dllo/Desktop/36kr/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        revision="24.0.2"
-        sha1="a4a4c77310adbffb6851ada220a041c2c9122e01">
-        <dex dex="/Users/dllo/Desktop/36kr/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_33c5d279760deedf14d1629235a5295c16fb5c1b.jar" />
-    </item>
-
-</items>
+<items version="2" />
