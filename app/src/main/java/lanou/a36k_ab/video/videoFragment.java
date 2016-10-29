@@ -14,10 +14,7 @@ import android.view.ViewGroup;
 import java.util.ArrayList;
 
 import lanou.a36k_ab.R;
-import lanou.a36k_ab.homepage.FlashFragment;
 import lanou.a36k_ab.homepage.HomepageAdapter;
-import lanou.a36k_ab.homepage.ProgramFragment;
-import lanou.a36k_ab.homepage.RecommendFragment;
 
 /**
  * Created by dllo on 16/10/21.

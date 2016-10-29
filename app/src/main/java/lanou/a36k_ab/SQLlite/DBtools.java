@@ -9,7 +9,7 @@ import android.database.sqlite.SQLiteDatabase;
 
 import java.util.ArrayList;
 
-import lanou.a36k_ab.homepage.ProgramBean;
+import lanou.a36k_ab.homepage.program.ProgramBean;
 
 /**
  * Created by dllo on 16/10/14.

@@ -3,8 +3,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="推荐"/>
+
+<com.youth.banner.Banner
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:id="@+id/banner">
+
+</com.youth.banner.Banner>
+
 </LinearLayout>
